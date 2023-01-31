@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(19, 19, 19);
+  color: rgb(243, 243, 243);
+}
+.color-text{
+  color: #BF5A00;
+}
+#app{
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+  #app-padding{
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+  }
+}
